@@ -1,0 +1,17 @@
+h1
+{
+    margin: 0.5em 0 0.75em 0.2em;
+    font-size: 20pt;
+    line-height: 1.0em;
+    padding-left: 1.5em;
+
+    background-image: url('./scgms.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.list-group-item
+{
+    font-size: 0.9em;
+    padding: 0.2em 0.6em 0.2em 0.4em;
+}
