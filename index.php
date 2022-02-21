@@ -30,6 +30,8 @@ require "pages.php";
                 <a <?php echo buildMenuLink("faq") ?> >FAQ</a>
                 <li class="list-group-item list-group-item-primary">API</li>
                 <a <?php echo buildMenuLink("apioverview") ?> >Overview</a>
+                <a <?php echo buildMenuLink("apilibraryinterface") ?> >Library interface</a>
+                <a <?php echo buildMenuLink("apiinterface") ?> >Common interface</a>
                 <a <?php echo buildMenuLink("apideviceevent") ?> >Device event</a>
                 <a <?php echo buildMenuLink("apientities") ?> >Entities</a>
                 <a <?php echo buildMenuLink("apifilter") ?> ><i class="bi bi-caret-right"></i>&nbsp;Filter</a>
@@ -49,6 +51,11 @@ require "pages.php";
                 <a <?php echo buildMenuLink("entlogfilters") ?> >Log &amp; log replay filter</a>
                 <a <?php echo buildMenuLink("entdrawingfilter") ?> >Drawing filter (legacy)</a>
                 <a <?php echo buildMenuLink("entfeedbacksender") ?> >Feedback sender filter</a>
+                <a <?php echo buildMenuLink("entsignalfilters") ?> >Mapping and masking filters</a>
+                <a <?php echo buildMenuLink("entmiscfilters") ?> >Other filters</a>
+                <a <?php echo buildMenuLink("entmetrics") ?> >Metrics</a>
+                <a <?php echo buildMenuLink("entsolvers") ?> >Solvers</a>
+                <a <?php echo buildMenuLink("entapproximators") ?> >Approximators</a>
                 <li class="list-group-item list-group-item-primary">C++ SDK</li>
                 <a <?php echo buildMenuLink("sdkoverview") ?> >Overview</a>
                 <a <?php echo buildMenuLink("sdkstructure") ?> >SDK structure</a>
@@ -56,11 +63,20 @@ require "pages.php";
                 <a <?php echo buildMenuLink("sdkconfiguration") ?> ><i class="bi bi-caret-right"></i>&nbsp;Configuration</a>
                 <a <?php echo buildMenuLink("sdkexecution") ?> ><i class="bi bi-caret-right"></i>&nbsp;Execution</a>
                 <a <?php echo buildMenuLink("sdkoptimizer") ?> ><i class="bi bi-caret-right"></i>&nbsp;Optimizing parameters</a>
+                <li class="list-group-item list-group-item-primary">Tools</li>
+                <a <?php echo buildMenuLink("frontends") ?> >Frontends</a>
+                <a <?php echo buildMenuLink("console") ?> ><i class="bi bi-caret-right"></i>&nbsp;Console</a>
+                <a <?php echo buildMenuLink("gui") ?> ><i class="bi bi-caret-right"></i>&nbsp;GUI</a>
             </ul>
 
         </div>
         <div class="col">
             <?php includeCurrentPage(); ?>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <footer>Copyright &copy; since 2018 University of West Bohemia</footer>
         </div>
     </div>
 </div>
