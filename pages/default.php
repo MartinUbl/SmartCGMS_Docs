@@ -54,6 +54,7 @@ What other kind of filters can I use?
 <ul>
     <li>a native scripting <a href="?page=apifilter">filter</a>, running a custom C++ script from a file</li>
     <li>a noise generator <a href="?page=apifilter">filter</a>, enhancing a signal with noise</li>
+    <li>a feedback sender <a href="?page=apifilter">filter</a>, to create a feedback loop, obtaining e.g.; closed loop control system</li>
     <li>and any other filter you develop</li>
 </ul>
 </p>

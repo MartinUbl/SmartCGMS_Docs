@@ -31,7 +31,7 @@ require "pages.php";
                 <li class="list-group-item list-group-item-primary">API</li>
                 <a <?php echo buildMenuLink("apioverview") ?> >Overview</a>
                 <a <?php echo buildMenuLink("apilibraryinterface") ?> >Library interface</a>
-                <a <?php echo buildMenuLink("apiinterface") ?> >Common interface</a>
+                <a <?php echo buildMenuLink("apiinterface") ?> >Object model and interface</a>
                 <a <?php echo buildMenuLink("apideviceevent") ?> >Device event</a>
                 <a <?php echo buildMenuLink("apientities") ?> >Entities</a>
                 <a <?php echo buildMenuLink("apifilter") ?> ><i class="bi bi-caret-right"></i>&nbsp;Filter</a>
@@ -43,6 +43,7 @@ require "pages.php";
                 <a <?php echo buildMenuLink("apisignal") ?> ><i class="bi bi-caret-right"></i>&nbsp;Signal</a>
                 <a <?php echo buildMenuLink("apiinspection") ?> >Inspection interface</a>
                 <a <?php echo buildMenuLink("apifeedback") ?> >Feedback</a>
+                <a <?php echo buildMenuLink("apisimpleinterface") ?> >"Simple" interface</a>
                 <li class="list-group-item list-group-item-primary">Existing entities</li>
                 <a <?php echo buildMenuLink("entsignalgenerator") ?> >Signal generator filter</a>
                 <a <?php echo buildMenuLink("entdatabasefilters") ?> >Database reader &amp; writer filter</a>
