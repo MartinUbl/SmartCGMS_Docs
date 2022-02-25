@@ -33,6 +33,7 @@ require "pages.php";
                 <a <?php echo buildMenuLink("apilibraryinterface") ?> >Library interface</a>
                 <a <?php echo buildMenuLink("apiinterface") ?> >Object model and interface</a>
                 <a <?php echo buildMenuLink("apideviceevent") ?> >Device event</a>
+                <a <?php echo buildMenuLink("apitime") ?> >Time and time segments</a>
                 <a <?php echo buildMenuLink("apientities") ?> >Entities</a>
                 <a <?php echo buildMenuLink("apifilter") ?> ><i class="bi bi-caret-right"></i>&nbsp;Filter</a>
                 <a <?php echo buildMenuLink("apidiscretemodel") ?> ><i class="bi bi-caret-right"></i>&nbsp;Discrete model</a>
@@ -47,6 +48,7 @@ require "pages.php";
                 <li class="list-group-item list-group-item-primary">Existing entities</li>
                 <a <?php echo buildMenuLink("entsignalgenerator") ?> >Signal generator filter</a>
                 <a <?php echo buildMenuLink("entdatabasefilters") ?> >Database reader &amp; writer filter</a>
+                <a <?php echo buildMenuLink("entdbformat") ?> ><i class="bi bi-caret-right"></i>&nbsp;Database structure</a>
                 <a <?php echo buildMenuLink("entcalculatedsignal") ?> >Calculated signal filter</a>
                 <a <?php echo buildMenuLink("enterrormetric") ?> >Error metric filter</a>
                 <a <?php echo buildMenuLink("entlogfilters") ?> >Log &amp; log replay filter</a>

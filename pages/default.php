@@ -18,6 +18,16 @@ A common scenario typically includes one device event source at the beginning of
 stores the simulation result into a log file and so on.
 </p>
 
+<p>One such example of a scenario may be the following setup:
+<center>
+<img src="img/arch.png" alt="Simplified scenario" title="Simplified scenario demonstrating the basic SmartCGMS principles of operation" />
+</center>
+</p>
+<p>
+This is a very simplified scenario, where one filter reads previously measured CGM profile from database (regulated with insulin pump only), the following filter calculating the signal of a LGS controller algorithm,
+and the next filter evaluating the average differences between the profile-recorded treatment and newly calculated treatment. Also, the whole simulation is rendered into SVG drawings and logged into a file.
+</p>
+
 <p>
 What is a typical device event source?
 <ul>
