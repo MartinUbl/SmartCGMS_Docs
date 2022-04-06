@@ -45,6 +45,7 @@ require "pages.php";
                 <a <?php echo buildMenuLink("apiinspection") ?> >Inspection interface</a>
                 <a <?php echo buildMenuLink("apifeedback") ?> >Feedback</a>
                 <a <?php echo buildMenuLink("apisimpleinterface") ?> >"Simple" interface</a>
+                <a <?php echo buildMenuLink("apiconfiguration") ?> >Configuration</a>
                 <li class="list-group-item list-group-item-primary">Existing entities</li>
                 <a <?php echo buildMenuLink("entsignalgenerator") ?> >Signal generator filter</a>
                 <a <?php echo buildMenuLink("entdatabasefilters") ?> >Database reader &amp; writer filter</a>

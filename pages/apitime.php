@@ -66,7 +66,7 @@ the conflict must be resolved outside of SmartCGMS context (e.g. by an external 
 </p>
 
 <p>
-Every time segments must start with the device event marked with <code>Time_Segment_Start</code> code. This device event contains a device time, that is less or equal to a value of
+Every time segment must start with the device event marked with <code>Time_Segment_Start</code> code. This device event contains a device time, that is less or equal to a value of
 the first level of such segment. Then, a set of levels, parameters and other data relevant to this segment may be sent through the filter chain. When the time segment reaches its end
 (e.g.; its last level from database was sent), a device event marked with <code>Time_Segment_End</code> code must occur. This marker allows for proper resource deallocation, and 
 also marks the end of the time segment visually in drawings.
