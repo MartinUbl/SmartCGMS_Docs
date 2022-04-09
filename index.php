@@ -36,8 +36,9 @@ require "pages.php";
                 <a <?php echo buildMenuLink("apitime") ?> >Time and time segments</a>
                 <a <?php echo buildMenuLink("apientities") ?> >Entities</a>
                 <a <?php echo buildMenuLink("apifilter") ?> ><i class="bi bi-caret-right"></i>&nbsp;Filter</a>
-                <a <?php echo buildMenuLink("apidiscretemodel") ?> ><i class="bi bi-caret-right"></i>&nbsp;Discrete model</a>
-                <a <?php echo buildMenuLink("apisignalmodel") ?> ><i class="bi bi-caret-right"></i>&nbsp;Signal model</a>
+                <a <?php echo buildMenuLink("apimodel") ?> ><i class="bi bi-caret-right"></i>&nbsp;Model</a>
+                <a <?php echo buildMenuLink("apidiscretemodel") ?> >&nbsp;&nbsp;<i class="bi bi-caret-right"></i>&nbsp;Discrete model</a>
+                <a <?php echo buildMenuLink("apisignalmodel") ?> >&nbsp;&nbsp;<i class="bi bi-caret-right"></i>&nbsp;Signal model</a>
                 <a <?php echo buildMenuLink("apimetric") ?> ><i class="bi bi-caret-right"></i>&nbsp;Metric</a>
                 <a <?php echo buildMenuLink("apisolver") ?> ><i class="bi bi-caret-right"></i>&nbsp;Solver</a>
                 <a <?php echo buildMenuLink("apiapproximator") ?> ><i class="bi bi-caret-right"></i>&nbsp;Approximator</a>

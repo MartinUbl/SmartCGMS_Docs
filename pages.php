@@ -31,4 +31,6 @@ function includeCurrentPage()
 
     if (file_exists("pages/$curPage.php"))
         require "pages/$curPage.php";
+    else
+        echo "<h2>We are sorry...</h2><p>The subpage you are looking for does not exist. It may not have been created yet, or the link that led you here was typed incorrectly.</p>";
 }
