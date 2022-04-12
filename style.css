@@ -10,6 +10,11 @@ h1
     background-repeat: no-repeat;
 }
 
+.nonexistent
+{
+    background: #FFEEEE;
+}
+
 .list-group-item
 {
     font-size: 0.9em;

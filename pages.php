@@ -19,6 +19,9 @@ function buildMenuLink($pagename)
     if ($pagename == $curPage || empty($pagename) && $curPage == "default")
         $class .= " active";
 
+    if (!empty($pagename) && !file_exists("pages/$pagename.php"))
+        $class .= " nonexistent";
+
     return "href=\"$href\" class=\"$class\"";
 }
 
